@@ -22,14 +22,14 @@ What does this implement or fix? Explain your changes and link to any relevant i
 - [ ] **Security Misconfiguration:** Are you using a third-party library with default configurations? Do those defaults have a security risk?
 - [ ] **XSS:** Does this change involve using untrusted data to render HTML or execute Javascript? Have you properly validated/escaped it?
 - [ ] **Insecure Deserialization:** Are you using native (de)serialization formats? Can you use a JSON format instead? Does (de)serialization safely handle unexpected/malformed data?
-- [ ] **Using Components with Known Vulnerabilities:** Are you using a library, framework, or other third-party module with known vulnerabilities? Are existing modules up-to-date?
+- [ ] **Using Components with Known Vulnerabilities:** Are you using a library, framework, or other third-party module with known vulnerabilities (you can run `npm audit` to check)? Are existing modules up-to-date?
 - [ ] **Insufficient Logging and Monitoring:** Is there a way to monitor these changes so we can easily detect a breach/attack/irregular behavior?
 
 ### Accessibility
 - [ ] Are you using semantic HTML? If you are unable to, does your custom widget have the appropriate aria attributes?
 - [ ] Is all functionality keyboard accessible?
 - [ ] Do all forms inputs have labels?
-- [ ] Do colors have sufficient contrast? Is text large enough? Refer to the WCAG 2.0 guidelines.
+- [ ] Do colors have [sufficient contrast](https://dequeuniversity.com/rules/axe/4.1/color-contrast?application=axeAPI)? Is text large enough? Refer to the WCAG 2.0 guidelines.
 - [ ] Are there any errors found by `@axe-core/react`?
 - [ ] Do your updates pass the `eslint/jsx-a11y` rules?
 - [ ] Have you tested with a screen reader?
