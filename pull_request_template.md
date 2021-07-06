@@ -6,7 +6,7 @@ What does this implement or fix? Explain your changes and link to any relevant i
 
 ### General
 - [ ] Have you removed all `console.log` statements?
-- [ ] Do your update pass `eslint` checks?
+- [ ] Do your updates pass `eslint` checks?
 - [ ] Does your code pass existing unit tests?
 - [ ] Did you write test code for you updates?
 - [ ] Did you test in both Chrome and Firefox?
